@@ -2,7 +2,7 @@
   "_meta": {
     "platform": "trino",
     "platform_name": "Trino",
-    "count": 411
+    "count": 412
   },
   "functions": [
     {
@@ -683,6 +683,13 @@
       "docs_url": "https://trino.io/docs/current/functions/hyperloglog.html#empty_approx_set",
       "preview_status": "GA",
       "fusion_typecheck": true
+    },
+    {
+      "name": "ENDS_WITH",
+      "category": "E#",
+      "docs_url": "https://trino.io/docs/current/functions/string.html#ends_with",
+      "preview_status": "GA",
+      "fusion_typecheck": false
     },
     {
       "name": "EVERY",
